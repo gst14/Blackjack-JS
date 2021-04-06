@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>Blackjack</title>  
+</head>
+<body>
+  <header class="titulo display-4"> Blackjack Game </header>
+  <div class="row mt-2">
+    <div class="col text-center">
+      <button class="btn btn-success" id='btn-new-game'>Nuevo Juego</button>
+      <button class="btn btn-light" id='btn-takeone'>Pedir Carta</button>
+      <button class="btn btn-danger" id='btn-stop'>Detener</button>
+    </div>
+  </div>
+  <div class="row container">
+    <div class="col">
+      <h3> Jugador <span class="badge badge-light" id="player-score">0</span> </h3>
+      <div id="player-cards">
+         <!-- <img class="card" src="assets/suit-cards/10C.png">
+        <img class="card" src="assets/suit-cards/10C.png">
+        <img class="card" src="assets/suit-cards/10C.png">
+        <img class="card" src="assets/suit-cards/10C.png">
+        <img class="card" src="assets/suit-cards/10C.png">
+        <img class="card" src="assets/suit-cards/10C.png">  -->
+      </div>
+    </div>
+  </div>
+
+  <div class="row container mt-2">
+    <div class="col">
+      <h3> Computadora <span class="badge badge-light" id="comp-score">0</span> </h3>
+      <div id="comp-cards">
+        <!-- <img class="card" src="assets/suit-cards/10H.png">
+        <img class="card" src="assets/suit-cards/10H.png">
+        <img class="card" src="assets/suit-cards/10H.png">
+        <img class="card" src="assets/suit-cards/10H.png">
+        <img class="card" src="assets/suit-cards/10H.png">
+        <img class="card" src="assets/suit-cards/10H.png"> -->
+      </div>
+    </div>
+  </div>
+</body>
+<script src="./assets/js/underscore-min.js"></script>
+<script src="./assets/js/app-min.js"></script>
+</html>

@@ -1,0 +1,22 @@
+.titulo{
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    padding-bottom: 0.2em;
+}
+
+html, body{
+    background-color: rgb(5, 92, 24);
+    color: rgb(234, 241, 247);
+}
+
+.card{
+    position: relative;
+    float: left;
+    width: 8em;
+    margin-left: -6em;
+    left: 6em;
+}
+#comp-cards, #player-cards{
+    height: 10rem;
+}
